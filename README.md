@@ -9,6 +9,8 @@ This repository shows my progress through the classes of `PAN Academy`, an bootc
 
 Each class is followed by a coding challenge and you can check the folders in this repository for each day's challeges separately.
 
+>_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
+
 ## Usage
 
 <strong>If you already have JRE installed:</strong>
