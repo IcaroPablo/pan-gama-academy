@@ -50,7 +50,7 @@ Hello! I'm [Icaro Pablo](https://www.github.com/IcaroPablo), this whole reposito
 
 ## License
 
-This project is licensed under the MIT License, see the [LICENSE](https://github.com/IcaroPablo/imersao-dev-alura/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License, see the [LICENSE](https://github.com/IcaroPablo/pan-gama-academy/blob/master/LICENSE) file for details.
 
 ## Special Thanks
 
