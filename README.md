@@ -11,6 +11,11 @@ Each class is followed by a coding challenge and you can check the folders in th
 
 >_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
 
+## Quick access to the challenges
+<a href=#>Day 1 (09/10/2021)</a>
+<br>
+<a href=#>Day 2 (11/10/2021)</a>
+
 ## Usage
 
 <strong>If you already have JRE installed:</strong>
