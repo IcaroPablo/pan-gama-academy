@@ -11,7 +11,7 @@ Each class is followed by a coding challenge and you can check the folders in th
 
 >_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
 
-## Quick access to the challenges
+## Quick access to the challenges (_to-do_)
 <a href=#>Day 1 (09/10/2021)</a>
 <br>
 <a href=#>Day 2 (11/10/2021)</a>
@@ -24,7 +24,8 @@ Each class is followed by a coding challenge and you can check the folders in th
 ```console
 $ git clone https://github.com/IcaroPablo/pan-gama-academy.git
 ```
-- Choose a mini project folder and double-click any `.java` file inside it
+>_to-do_
+<!-- - Choose a mini project folder and double-click any `.java` file inside it -->
 - Your JVM should do the rest ;)
 
 <strong>If you don't have JRE installed you can download it in the oracle site</strong>
