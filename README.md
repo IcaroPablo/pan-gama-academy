@@ -1,7 +1,7 @@
 Bootcamp banco PAN + Gama Academy
 =
 
-A small collection of simple projects for practicing basic java development.
+A small collection of simple challenges for practicing basic java development.
 
 ## About this repository
 
