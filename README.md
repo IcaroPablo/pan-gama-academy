@@ -11,16 +11,21 @@ Each class is followed by a coding challenge and you can check the folders in th
 
 >_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
 
-## Quick access to the challenges (_to-do_)
-<a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day1>Day 1 (09/10/2021)</a>
-<br>
-<a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day2>Day 2 (11/10/2021)</a>
-<br>
-<a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day3>Day 3 (14/10/2021)</a>
-<br>
-<a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day4>Day 4 (15/10/2021)</a>
-<br>
-<a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day5>Day 5 (16/10/2021)</a>
+## Quick access to the daily challenges
+<details>
+    <summary>Click to expand!</summary>
+    <div>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day1>Day 1 (09/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day2>Day 2 (11/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day3>Day 3 (14/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day4>Day 4 (15/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day5>Day 5 (16/10/2021)</a>
+    </div>
+</details>
 
 ## Usage
 
