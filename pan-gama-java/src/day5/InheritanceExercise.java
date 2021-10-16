@@ -11,8 +11,8 @@ public class InheritanceExercise {
 		
 		class Bird extends Animal {
 			
-			public Bird () {
-				System.out.println("# criando uma águia, um objeto do tipo pássaro que herda da classe animal");
+			public Bird (String nome) {
+				System.out.println("# criando um(a) " + nome + ", um objeto do tipo pássaro que herda da classe animal");
 			}
 			
 			@Override
@@ -30,8 +30,8 @@ public class InheritanceExercise {
 		
 		class Reptile extends Animal {
 			
-			public Reptile () {
-				System.out.println("# criando uma cobra, um objeto do tipo réptil que herda da classe animal");
+			public Reptile (String nome) {
+				System.out.println("# criando um(a) " + nome + ", um objeto do tipo réptil que herda da classe animal");
 			}
 			
 			@Override
@@ -47,13 +47,13 @@ public class InheritanceExercise {
 			}
 		}
 		
-		Bird eagle = new Bird();
+		Bird eagle = new Bird("águia");
 		eagle.comunicar();
 		eagle.movimentar();
 		
 		System.out.println("----------------------");
 
-		Reptile snake = new Reptile();
+		Reptile snake = new Reptile("cobra");
 		snake.comunicar();
 		snake.movimentar();
 		
