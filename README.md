@@ -25,9 +25,8 @@ pan-gama-java
     └── dayN
 
 ```
-## Quick access to the daily challenges
 <details>
-    <summary>Click to expand!</summary>
+    <summary>Quick access to the daily challengs, click to expand!</summary>
     <div>
         <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day1>Day 1 (09/10/2021)</a>
         <br>
