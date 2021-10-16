@@ -23,7 +23,6 @@ pan-gama-java
     │   └── exerciseZ.java    
     ├── ...
     └── dayN
-
 ```
 <details>
     <summary>Quick access to the daily challengs, click to expand!</summary>
