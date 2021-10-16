@@ -11,6 +11,20 @@ Each class is followed by a coding challenge and you can check the folders in th
 
 >_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
 
+## File hierarchy
+
+```
+pan-gama-java
+└── src
+    ├── day1
+    │   ├── exerciseX.java
+    │   └── exerciseY.java        
+    ├── day2
+    │   └── exerciseZ.java    
+    ├── ...
+    └── dayN
+
+```
 ## Quick access to the daily challenges
 <details>
     <summary>Click to expand!</summary>
