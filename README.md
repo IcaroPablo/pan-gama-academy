@@ -36,6 +36,8 @@ pan-gama-java
         <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day4>Day 4 (15/10/2021)</a>
         <br>
         <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day5>Day 5 (16/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day6>Day 6 (18/10/2021)</a>
     </div>
 </details>
 
