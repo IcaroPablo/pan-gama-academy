@@ -16,7 +16,7 @@ mongosh
 use testedb
 ```
 - Create a new `collection` for our tests:
-```console
+```bash
 db.createCollection("carros")
 ```
 - Populate our collection using the following command:
@@ -30,7 +30,7 @@ db.coll.insertOne({})
 db.getCollection("carros").update( { modelo: "etios" }, { $set: { cor: "branca" } })
 
 - Delete all the documents in which the "modelo" attribute equals "etios":
->_Remover todos os carros cujo modelo é etios
+>_Remover todos os carros cujo modelo é etios_
 db.getCollection("carros").remove({modelo: "etios"})
 
 - Simple consult by attribute ("marca = toyota"):
@@ -42,9 +42,9 @@ db.getCollection("carros").find({marca: "toyota"})
 db.getCollection("carros").find({cor: "azul"}, {ano: 1})
 
 - Consult combining the selectors, in this case, shows all the documents in which the "ano" attribute is `>=` 2019 `and` `<=` 2021:
-//exibir todos os carros cujo ano é maior ou igual a 2019 e menor ou igual a 2021
+>_Exibir todos os carros cujo ano é maior ou igual a 2019 e menor ou igual a 2021_
 db.getCollection("carros").find({ ano: { $gte: 2019 }, ano:{ $lte: 2021} })
 
 - Consult showing all the documents in the collection ordered by the "ano" attribute:
-//ordenar todos os carros por ano
+>_Ordenar todos os carros da base de dados por ano_
 db.getCollection("carros").find().sort({ano: 1})
