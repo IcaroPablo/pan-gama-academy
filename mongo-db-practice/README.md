@@ -100,8 +100,8 @@ testdb> db.getCollection("carros").insertOne({
 
 #### Updating documents
 - Update the attribute "cor" for all documents in which the "modelo" attribute equals "etios":
->_Atualizar para branca a cor de todos os carros cujo modelo é etios_
 ```javascript
+// Atualizar para branca a cor de todos os carros cujo modelo é etios
 testdb> db.getCollection("carros").update( { modelo: "etios" }, { $set: { cor: "branca" } })
 ```
 <br>
