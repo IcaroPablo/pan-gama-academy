@@ -22,6 +22,7 @@ public class Tabuada {
 				}
 				
 				mensagem = "digite um número inteiro de 1 a 10 para que eu exiba a tabuada";
+
 			} catch(NumberFormatException e) {
 				mensagem = "digite apenas números";
 			}
