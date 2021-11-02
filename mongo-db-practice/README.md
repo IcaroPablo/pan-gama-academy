@@ -36,56 +36,56 @@ testdb> db.coll.insertOne()
     <summary><strong>button below :P</strong></summary>
 
 ```javascript
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "audi",
     "cor" : "preta",
     "ano" : 2021,
     "modelo" : "A4"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "chevrolet",
     "cor" : "vermelha",
     "ano" : 2018,
     "modelo" : "camaro"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "chevrolet",
     "cor" : "branca",
     "ano" : 2019,
     "modelo" : "cruze"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "nissan",
     "cor" : "azul",
     "ano" : 2020,
     "modelo" : "versa"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "nissan",
     "cor" : "branca",
     "ano" : 2020,
     "modelo" : "leaf"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "toyota",
     "cor" : "prata",
     "ano" : 2022,
     "modelo" : "corolla"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "toyota",
     "cor" : "prata",
     "ano" : 2021,
     "modelo" : "prius"
 })
 
-testdb> db.coll.insertOne({
+testdb> db.getCollection("carros").insertOne({
     "marca" : "toyota",
     "cor" : "preta",
     "ano" : 2021,
