@@ -16,61 +16,123 @@ $ mongosh
 ```
 
 - Create a new database for our tests:
-```python
+```shell
 use testedb
 ```
 
 - Create a new `collection` for our tests:
-```python
+```javascript
 testdb> db.createCollection("carros")
 ```
 
 ## Practicing queries
 
 - Populate our collection using the following command:
-```python
-testdb> db.coll.insertOne({})
+```javascript
+testdb> db.coll.insertOne()
 ```
 >_You can check all the insertions I made clicking on the button below to expand the collapsed list_
+<details>
+    <summary><strong>button below :P</strong></summary>
+
+```javascript
+testdb> db.coll.insertOne({
+    "marca" : "audi",
+    "cor" : "preta",
+    "ano" : 2021,
+    "modelo" : "A4"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "chevrolet",
+    "cor" : "vermelha",
+    "ano" : 2018,
+    "modelo" : "camaro"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "chevrolet",
+    "cor" : "branca",
+    "ano" : 2019,
+    "modelo" : "cruze"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "nissan",
+    "cor" : "azul",
+    "ano" : 2020,
+    "modelo" : "versa"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "nissan",
+    "cor" : "branca",
+    "ano" : 2020,
+    "modelo" : "leaf"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "toyota",
+    "cor" : "prata",
+    "ano" : 2022,
+    "modelo" : "corolla"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "toyota",
+    "cor" : "prata",
+    "ano" : 2021,
+    "modelo" : "prius"
+})
+
+testdb> db.coll.insertOne({
+    "marca" : "toyota",
+    "cor" : "preta",
+    "ano" : 2021,
+    "modelo" : "etios"
+})
+```
+      
+</details>
 <br>
 
 - Update the attribute "cor" for all documents in which the "modelo" attribute equals "etios":
 >_Atualizar para branca a cor de todos os carros cujo modelo é etios_
-```python
+```javascript
 testdb> db.getCollection("carros").update( { modelo: "etios" }, { $set: { cor: "branca" } })
 ```
 <br>
 
 - Delete all the documents in which the "modelo" attribute equals "etios":
 >_Remover todos os carros cujo modelo é etios_
-```python
+```javascript
 testdb> db.getCollection("carros").remove({modelo: "etios"})
 ```
 <br>
 
 - Simple consult by attribute ("marca = toyota"):
 >_Encontrar todos os carros da marca toyota_
-```python
+```javascript
 testdb> db.getCollection("carros").find({marca: "toyota"})
 ```
 <br>
 
 - Consult with projections, in this case, shows the "ano" _column_ of all the documents in which the "cor" attribute equals "azul":
 >_Exibir o ano de todos os carros cuja cor é azul_
-```python
+```javascript
 testdb> db.getCollection("carros").find({cor: "azul"}, {ano: 1})
 ```
 <br>
 
 - Consult combining the selectors, in this case, shows all the documents in which the "ano" attribute is `>=` 2019 `and` `<=` 2021:
 >_Exibir todos os carros cujo ano é maior ou igual a 2019 e menor ou igual a 2021_
-```python
+```javascript
 testdb> db.getCollection("carros").find({ ano: { $gte: 2019 }, ano:{ $lte: 2021} })
 ```
 <br>
 
 - Consult showing all the documents in the collection ordered by the "ano" attribute:
 >_Ordenar todos os carros da base de dados por ano_
-```python
+```javascript
 testdb> db.getCollection("carros").find().sort({ano: 1})
 ```
