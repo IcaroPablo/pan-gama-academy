@@ -108,39 +108,39 @@ testdb> db.getCollection("carros").update( { modelo: "etios" }, { $set: { cor: "
 
 #### Removing documents
 - Delete all the documents in which the "modelo" attribute equals "etios":
->_Remover todos os carros cujo modelo é etios_
 ```javascript
+// Remover todos os carros cujo modelo é etios
 testdb> db.getCollection("carros").remove({modelo: "etios"})
 ```
 <br>
 
 #### Consulting documents
 - Simple consult by attribute ("marca = toyota"):
->_Encontrar todos os carros da marca toyota_
 ```javascript
+// Encontrar todos os carros da marca toyota
 testdb> db.getCollection("carros").find({marca: "toyota"})
 ```
 <br>
 
 #### Consulting with projections
 - Shows the "ano" _column_ of all the documents in which the "cor" attribute equals "azul":
->_Exibir o ano de todos os carros cuja cor é azul_
 ```javascript
+// Exibir o ano de todos os carros cuja cor é azul
 testdb> db.getCollection("carros").find({cor: "azul"}, {ano: 1})
 ```
 <br>
 
 #### Consulting combining selectors
 - Consult combining the selectors, in this case, shows all the documents in which the "ano" attribute is `>=` 2019 `and` `<=` 2021:
->_Exibir todos os carros cujo ano é maior ou igual a 2019 e menor ou igual a 2021_
 ```javascript
+// Exibir todos os carros cujo ano é maior ou igual a 2019 e menor ou igual a 2021
 testdb> db.getCollection("carros").find({ ano: { $gte: 2019 }, ano:{ $lte: 2021} })
 ```
 <br>
 
 #### Consult ordering results
 - Consult showing all the documents in the collection limited to 3 results, ordered by the "ano" attribute:
->_Exibir todos os carros da base de dados, limitando a 3 resultados, ordenando por ano_
 ```javascript
+// Exibir todos os carros da base de dados, limitando a 3 resultados, ordenando por ano
 testdb> db.getCollection("carros").find().limit(3).sort({ano: 1})
 ```
