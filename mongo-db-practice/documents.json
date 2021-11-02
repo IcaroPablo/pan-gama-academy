@@ -1,0 +1,43 @@
+[
+    {
+        "marca" : "audi",
+        "cor" : "preta",
+        "ano" : 2021,
+        "modelo" : "A4"
+    }, {
+        "marca" : "chevrolet",
+        "cor" : "vermelha",
+        "ano" : 2018,
+        "modelo" : "camaro"
+    }, {
+        "marca" : "chevrolet",
+        "cor" : "branca",
+        "ano" : 2019,
+        "modelo" : "cruze"
+    }, {
+        "marca" : "nissan",
+        "cor" : "azul",
+        "ano" : 2020,
+        "modelo" : "versa"
+    }, {
+        "marca" : "nissan",
+        "cor" : "branca",
+        "ano" : 2020,
+        "modelo" : "leaf"
+    }, {
+        "marca" : "toyota",
+        "cor" : "prata",
+        "ano" : 2022,
+        "modelo" : "corolla"
+    }, {
+        "marca" : "toyota",
+        "cor" : "prata",
+        "ano" : 2021,
+        "modelo" : "prius"
+    }, {
+        "marca" : "toyota",
+        "cor" : "preta",
+        "ano" : 2021,
+        "modelo" : "etios"
+    }
+]
