@@ -1,6 +1,6 @@
 # Basic practice on mongodb
 
-This exercise aims to get us, students used to basic `CRUD` operations on a Mongo `database`. All the `JSONs` generated on my database can be found in the [documents.json](documents.json) file in this folder :)
+This exercise aims to get us, students, used to basic `CRUD` operations on a Mongo `database`. All the `JSONs` generated on my database can be found in the [documents.json](documents.json) file in this folder :)
 
 For this exercise I created a "Carros" colection in a test database and inserted in it documents with just four attributes, you can follow the steps below for a linux environment demonstration.
 
