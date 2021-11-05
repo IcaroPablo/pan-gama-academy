@@ -70,7 +70,7 @@ $ git clone https://github.com/IcaroPablo/pan-gama-academy.git
 >_Each spring project has "Spring" in its name and its own folder on the root of the repository_
 
 - Be sure to import the Spring projects as a `Maven project` if you use `Eclipse`
-- Also sure to run the file that contains the `main` function in each project to see it working
+- Also be sure to run the file that contains the `main` function in each project to see it working
 - Your JVM should do the rest ;)
 
 >_Important note: some variable names and sentences that show up in the console are written in portuguese_
