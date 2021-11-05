@@ -65,7 +65,7 @@ $ git clone https://github.com/IcaroPablo/pan-gama-academy.git
 
 >_Notice that here you're gonna find some vanilla java projects as well as maven projects with Spring Boot_
 
->_Vanilla java projects are in the [pan-gama-java](https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java) folder
+>_Vanilla java projects are in the [pan-gama-java](https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java) folder_
 
 >_Each spring project has "Spring" in its name and its own folder on the root of the repository_
 
