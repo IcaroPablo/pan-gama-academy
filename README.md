@@ -11,7 +11,7 @@ Each class is followed by a coding challenge and you can check the folders in th
 
 >_Please keep in mind that this repository is not finished yet and it is being continuously improved as the bootcamp goes on_
 
-## File hierarchy
+## File hierarchy for basic Java challenges
 
 ```
 pan-gama-java
@@ -40,22 +40,40 @@ pan-gama-java
         <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day6>Day 6 (18/10/2021)</a>
         <br>
         <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day7>Day 7 (30/10/2021)</a>
+        <br>
+        <a href=https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java/src/day7>Day 8 (03/11/2021)</a>
     </div>
 </details>
 
 ## Usage
 
-<strong>If you already have JRE installed:</strong>
+#### If you don't have `JDK` installed yet you can download it in the following sources:
+- [Oracle's website](https://www.oracle.com/java/technologies/downloads/)
+- [OpenJDK's website](https://openjdk.java.net/)
+- [SDKMAN tool](https://sdkman.io/)
+
+>_I'm not gonna guide you through the full process of installation, the internet has plenty of resources for that_
+
+#### If you already have `JDK` installed:
 
 - Download this repository
 ```console
 $ git clone https://github.com/IcaroPablo/pan-gama-academy.git
 ```
->_to-do_
-<!-- - Choose a mini project folder and double-click any `.java` file inside it -->
+- Import them on your favorite IDE (mine was `Eclipse`)
+
+
+>_Notice that here you're gonna find some vanilla java projects as well as maven projects with Spring Boot_
+
+>_Vanilla java projects are in the [pan-gama-java](https://github.com/IcaroPablo/pan-gama-academy/tree/master/pan-gama-java) folder_
+
+>_Each spring project has "Spring" in its name and its own folder on the root of the repository_
+
+- Be sure to import the Spring projects as a `Maven project` if you use `Eclipse`
+- Also be sure to run the file that contains the `main` function in each project to see it working
 - Your JVM should do the rest ;)
 
-<strong>If you don't have JRE installed you can download it in the oracle site</strong>
+>_Important note: some variable names and sentences that show up in the console are written in portuguese_
 
 ## How to contribute
 
